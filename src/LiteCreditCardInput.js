@@ -84,7 +84,7 @@ export default class LiteCreditCardInput extends Component {
   static defaultProps = {
     placeholders: {
       number: "1234 5678 1234 5678",
-      expiry: "MM/YY",
+      expiry: "MM/YYYY",
       cvc: "CVC",
     },
     validColor: "",
